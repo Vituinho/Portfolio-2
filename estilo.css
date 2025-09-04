@@ -1,3 +1,12 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: rgb(52, 58, 64);
+}
+
 header ul li:hover {
     color: #f2f2f2;
 }

@@ -34,14 +34,18 @@ header nav #nav-principal ul li .btn {
 }
 
 
-@media (max-width: 767.98) {
+@media (max-width: 991.98px) {
+
+  .row {
+     flex-direction: column;
+  }
+
   #teste {
     font-size: 3rem;
   }
   
   section {
-    margin-top: 12em;
-    margin-left: 5em;
+    margin-top: 5em;
   }
 
   header nav {
@@ -49,27 +53,17 @@ header nav #nav-principal ul li .btn {
     margin-left: 13px;
   }
 
-  section img #imagem-eu {
-    margin-top: 15px;
+  section #imagem-eu {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 370px;
   } 
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-  #teste {
-    font-size: 3rem;
-  }
-  
-  section {
-    margin-top: 12em;
-  }
 
-  header nav {
-    margin-right: 13px;
-    margin-left: 13px;
-  }
-}
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1425.98px) {
   
   #teste {
     font-size: 3rem;
@@ -87,21 +81,27 @@ header nav #nav-principal ul li .btn {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1425px) {
   #teste {
     font-size: 4rem;
   }
 
   section {
     margin-top: 17em;
-    margin-left: 6em;
+    margin-left: 10em;
   }
+
 
   
   header nav {
     margin-right: 15px;
     margin-left: 15px;
   }
+
+  section #imagem-eu img {
+    width: 30em;
+    margin-right: 10px;
+  } 
   
 }
 

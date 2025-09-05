@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -11,10 +12,17 @@ header ul li:hover {
     color: #f2f2f2;
 }
 
-header .navbar-brand a {
-    font-size: 3rem;
+header nav .navbar-brand {
+  font-size: 1.75em;
 }
 
+header nav #nav-principal ul li {
+  font-size: 1.25em;
+}
+
+header nav #nav-principal ul li .btn {
+  font-size: 1.18em;
+}
 
 #teste {
     font-size: 3em;
@@ -25,17 +33,17 @@ header .navbar-brand a {
   #teste {
     font-size: 4rem;
   }
-
-section img {
-    display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
+
 
 @media (min-width: 1200px) { /* desktop */
   #teste {
     font-size: 5rem;
   }
 }
+
+@keyframes typing {
+  from { clip-path: inset(0 100% 0 0); }
+  to   { clip-path: inset(0 0 0 0); }
+}
+

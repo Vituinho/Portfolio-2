@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 
@@ -46,7 +46,7 @@ header nav #nav-principal ul li .btn {
   }
   
   section {
-    margin-top: 5em;
+    margin-top: 10%;
   }
 
   header nav {
@@ -59,6 +59,7 @@ header nav #nav-principal ul li .btn {
     margin-left: auto;
     width: 400px;
     height: 370px;
+    margin-top: 2em;
   } 
 }
 
@@ -71,7 +72,7 @@ header nav #nav-principal ul li .btn {
   }
 
   section {
-    margin-top: 15em;
+    margin-top: 20%;
   }
 
   
@@ -88,8 +89,8 @@ header nav #nav-principal ul li .btn {
   }
 
   section {
-    margin-top: 17em;
-    margin-left: 10em;
+    margin-top: 10%;
+    margin-left: 8em;
   }
 
 
@@ -102,7 +103,8 @@ header nav #nav-principal ul li .btn {
   section #imagem-eu img {
     width: 30em;
     margin-right: 10px;
-  } 
+    margin-bottom: 50%;
+} 
   
 }
 

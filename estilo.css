@@ -1,16 +1,20 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
+
+
 body {
-    background: rgb(52, 58, 64);
+  background: rgb(52, 58, 64);
 }
 
 header ul li:hover {
-    color: #f2f2f2;
+  color: #f2f2f2;
 }
+
 
 header nav .navbar-brand {
   font-size: 1.75em;
@@ -25,25 +29,93 @@ header nav #nav-principal ul li .btn {
 }
 
 #teste {
-    font-size: 3em;
-    font-weight: bold;
+  font-size: 3em;
+  font-weight: bold;
 }
 
-@media (min-width: 768px) and (max-width: 1199.98px) { /* tablet */
+
+@media (max-width: 767.98) {
+  #teste {
+    font-size: 3rem;
+  }
+  
+  section {
+    margin-top: 12em;
+    margin-left: 5em;
+  }
+
+  header nav {
+    margin-right: 13px;
+    margin-left: 13px;
+  }
+
+  section img #imagem-eu {
+    margin-top: 15px;
+  } 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #teste {
+    font-size: 3rem;
+  }
+  
+  section {
+    margin-top: 12em;
+  }
+
+  header nav {
+    margin-right: 13px;
+    margin-left: 13px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+  #teste {
+    font-size: 3rem;
+  }
+
+  section {
+    margin-top: 15em;
+  }
+
+  
+  header nav {
+    margin-right: 12px;
+    margin-left: 2px;
+  }
+
+}
+
+@media (min-width: 1200px) {
   #teste {
     font-size: 4rem;
   }
+
+  section {
+    margin-top: 17em;
+    margin-left: 6em;
+  }
+
+  
+  header nav {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
 }
 
 
-@media (min-width: 1200px) { /* desktop */
-  #teste {
-    font-size: 5rem;
+@keyframes typing {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+
+  to {
+    clip-path: inset(0 0 0 0);
   }
 }
 
-@keyframes typing {
-  from { clip-path: inset(0 100% 0 0); }
-  to   { clip-path: inset(0 0 0 0); }
+#typing {
+  animation: typing 4s steps(400, end) infinite alternate;
 }
-

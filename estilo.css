@@ -9,6 +9,7 @@ body {
 
 body {
   background: rgb(52, 58, 64);
+  background: url(imagens/imagem-de-fundo.jpg);
 }
 
 header ul li:hover {

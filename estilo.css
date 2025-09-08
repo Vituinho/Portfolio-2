@@ -170,3 +170,6 @@ header nav #nav-principal ul li .btn {
   opacity: 1;
 }
 
+i[class^="fa-"] {
+    color: white;
+}

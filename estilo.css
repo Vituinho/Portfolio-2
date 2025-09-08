@@ -1,7 +1,6 @@
 html,
 body {
   height: 100vh;
-  width: 100%;
   overflow-x: hidden;
 }
 
@@ -13,6 +12,12 @@ body {
 body {
   background: rgb(52, 58, 64);
   background: url(imagens/imagem-de-fundo.jpg);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header ul li:hover {

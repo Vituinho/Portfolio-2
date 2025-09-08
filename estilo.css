@@ -14,7 +14,7 @@ body {
   background: url(imagens/imagem-de-fundo.jpg);
 }
 
-section {
+#secao {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,10 +44,6 @@ header nav #nav-principal ul li .btn {
 
 
 @media (max-width: 991.98px) {
-
-  .row {
-     flex-direction: column;
-  }
 
   #teste {
     font-size: 3rem;
@@ -80,7 +76,7 @@ header nav #nav-principal ul li .btn {
     font-size: 3rem;
   }
 
-  section {
+  #secao {
     margin-top: 13%;
   }
 
@@ -101,7 +97,7 @@ header nav #nav-principal ul li .btn {
     font-size: 4rem;
   }
 
-  section {
+  #secao {
     margin-top: 7%;
   }
 
@@ -111,7 +107,7 @@ header nav #nav-principal ul li .btn {
     margin-left: 15px;
   }
 
-  section #imagem-eu img {
+  #secao #imagem-eu img {
     width: 30em;
     margin-right: 10px;
     margin-bottom: 50%;
@@ -140,3 +136,37 @@ header nav #nav-principal ul li .btn {
   background-color: gray;
   border-radius: 10px;
 }
+
+.card {
+  position: relative;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  overflow: hidden; /* adicionado */
+  border-radius: 12px; /* mesmo do ::before */
+}
+
+.card-img-top {
+  border-radius: 12px 12px 0 0;
+}
+
+
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 2px; /* largura da borda */
+  background: linear-gradient(90deg, #ffcc00, #ff8800);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  transform: scale(1.05);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+

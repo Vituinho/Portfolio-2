@@ -135,3 +135,7 @@ header nav #nav-principal ul li .btn {
 #typing {
   animation: typing 4s steps(400, end) infinite alternate;
 }
+
+.gazinbank, .portaldacidade {
+  background-color: gray;
+}

@@ -138,4 +138,5 @@ header nav #nav-principal ul li .btn {
 
 .gazinbank, .portaldacidade {
   background-color: gray;
+  border-radius: 10px;
 }

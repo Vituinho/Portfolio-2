@@ -162,3 +162,48 @@ i[class^="fa-"] {
     box-shadow: 0 18px 40px rgba(0,0,0,0.6), inset 0 0 10px rgba(255,255,255,0.1);
 }
 
+@keyframes pra-frente {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes pra-frente-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.progress {
+  height: 13px; 
+  background-color: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+}
+
+.progress-bar-html { background-color: darkorange; animation: pra-frente-html 2s forwards;  }
+.progress-bar-css { animation: pra-frente-css 2s forwards; background-color: #1572B6; }
+.progress-bar-js { animation: pra-frente-js 2s forwards; background-color: #ffc107; }
+.progress-bar-php { animation: pra-frente-php 2s forwards; background-color: #777BB3; }
+.progress-bar-mysql { animation: pra-frente-mysql 2s forwards; background-color: #4479A1; }
+.progress-bar-git { animation: pra-frente-git 2s forwards; background-color: #dc3545; }
+.progress-bar-bootstrap { animation: pra-frente-bootstrap 2s forwards; background-color: blueviolet; }
+
+@keyframes pra-frente-html { from { width: 0; } to { width: 95%; } }
+@keyframes pra-frente-css { from { width: 0; } to { width: 85%; } }
+@keyframes pra-frente-js { from { width: 0; } to { width: 70%; } }
+@keyframes pra-frente-php { from { width: 0; } to { width: 60%; } }
+@keyframes pra-frente-mysql { from { width: 0; } to { width: 85%; } }
+@keyframes pra-frente-git { from { width: 0; } to { width: 80%; } }
+@keyframes pra-frente-bootstrap { from { width: 0; } to { width: 90%; } }

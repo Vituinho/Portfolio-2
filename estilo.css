@@ -85,7 +85,7 @@ header nav #nav-principal ul li .btn {
   }
 
   html, body {
-    overflow-y: hidden;
+    overflow-y: auto;
   }  
 
 }
@@ -111,7 +111,7 @@ header nav #nav-principal ul li .btn {
     margin-bottom: 50%;
 } 
   html, body {
-    overflow-y: hidden;
+    overflow-y: auto;
   }  
 }
 

@@ -64,6 +64,14 @@ header nav #nav-principal ul li .btn {
     overflow-y: auto;
   }
 
+  .especialidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
 }
 
 

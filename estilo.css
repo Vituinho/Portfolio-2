@@ -166,6 +166,8 @@ header nav #nav-principal ul li .btn {
 }
 
 .card-img-top {
+  object-fit: cover;
+  height: 180px;
   border-radius: 12px 12px 0 0;
 }
 
